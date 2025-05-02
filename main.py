@@ -20,6 +20,15 @@ root.title("KM to Miles Converter")
 frame = ttk.Frame(root, padding="10")
 frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 
+# Kilometers entry
+km_label = ttk.Label(frame, text="Enter distance in kilometers:")
+km_label.grid(row=0, column=0, sticky=tk.W, pady=2)
+
+km_entry = ttk.Entry(frame, width=15)
+km_entry.grid(row=0, column=1, sticky=tk.W, pady=2)
+km_entry.focus()
+
+
 
 
 # Start the application
