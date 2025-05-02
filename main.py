@@ -16,6 +16,10 @@ def convert_km_to_miles():
 root = tk.Tk()
 root.title("KM to Miles Converter")
 
+# Create a frame to hold the widgets
+frame = ttk.Frame(root, padding="10")
+frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+
 
 
 # Start the application
