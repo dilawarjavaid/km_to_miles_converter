@@ -9,3 +9,14 @@ def convert_km_to_miles():
         result_label.config(text=f"Distance in miles: {miles:.2f}")
     except ValueError:
         result_label.config(text="Please enter a valid number.")
+
+
+
+# Create the main window
+root = tk.Tk()
+root.title("KM to Miles Converter")
+
+
+
+# Start the application
+root.mainloop()
