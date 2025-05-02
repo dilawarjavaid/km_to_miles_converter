@@ -28,6 +28,14 @@ km_entry = ttk.Entry(frame, width=15)
 km_entry.grid(row=0, column=1, sticky=tk.W, pady=2)
 km_entry.focus()
 
+# Convert button
+convert_button = ttk.Button(frame, text="Convert", command=convert_km_to_miles)
+convert_button.grid(row=1, column=0, columnspan=2, pady=2)
+
+# Result label
+result_label = ttk.Label(frame, text="Distance in miles: ")
+result_label.grid(row=2, column=0, columnspan=2, sticky=tk.W, pady=2)
+
 
 
 
